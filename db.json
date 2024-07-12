@@ -1,0 +1,40 @@
+{
+  "productos": [
+    {
+      "nombre": "Wingspan",
+      "precio": "1200",
+      "imagen": "https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_download_software_1/H2x1_NSwitchDS_Wingspan_image1600w.jpg",
+      "id": "1"
+    },
+    {
+      "nombre": "Cascadia",
+      "precio": "680",
+      "imagen": "https://www.ludonauta.es/files/ludico/juegos-mesas/juego-mesa-cascadia-2021-1989205749.jpg",
+      "id": "2"
+    },
+    {
+      "nombre": "Calico",
+      "precio": "768",
+      "imagen": "https://cf.geekdo-images.com/qGkU6XsF1448F_A4P8TY5Q__itemrep/img/LOHi5NBdVoye0qNl9lixSGn0N8E=/fit-in/246x300/filters:strip_icc()/pic8124431.jpg",
+      "id": "3"
+    },
+    {
+      "id": "98",
+      "nombre": "Azul",
+      "precio": "570",
+      "imagen": "https://m.media-amazon.com/images/I/91xz1Z-3ksS._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+      "id": "13",
+      "nombre": "Flamecraft",
+      "precio": "1000",
+      "imagen": "https://th.bing.com/th/id/OIP.UNIPri18qFsRzj_Kz9Q_DQAAAA?rs=1&pid=ImgDetMain"
+    },
+    {
+      "id": "11",
+      "nombre": "Verdant",
+      "precio": "810",
+      "imagen": "https://cf.geekdo-images.com/c1XGn5ryzbqgMOHzObZpQw__imagepage/img/Uy_Vcjq_QRZBxK8ADdsl4Xao_3Q=/fit-in/900x600/filters:no_upscale():strip_icc()/pic6094080.png"
+    }
+  ]
+}
