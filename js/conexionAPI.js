@@ -23,13 +23,13 @@ async function nuevoProducto(nombre,precio,imagen,id){
         })
     });
 
-   /* try{
+    try{
         const conexionConvertida = conexion.json()
         return conexionConvertida;
     }
     catch{       
         alert("Error en la conexion");
-    }}*/
+    }}
 };
 
 
