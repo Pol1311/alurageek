@@ -1,5 +1,5 @@
 async function listaProductos() {
-    const conexion= await fetch("https://alurageek-ten.vercel.app/productos");
+    const conexion= await fetch("https://alurageek-phi-one.vercel.app/productos");
     
     try{
         const conexionConvertida = await conexion.json();
@@ -12,7 +12,7 @@ async function listaProductos() {
 
 
 async function nuevoProducto(nombre,precio,imagen,id){
-    const conexion = await fetch("https://alurageek-ten.vercel.app/productos", {
+    const conexion = await fetch("https://alurageek-phi-one.vercel.app/productos", {
         method: "POST",
         headers: {"Content-type":"application/json"},
         body: JSON.stringify({
@@ -34,7 +34,7 @@ async function nuevoProducto(nombre,precio,imagen,id){
 
 
 async function eliminarTarjeta(id)  {
-    const conexion = await fetch(`https://alurageek-ten.vercel.app/productos/${id}`, 
+    const conexion = await fetch(`https://alurageek-phi-one.vercel.app/productos/${id}`, 
         {method: "DELETE",
         headers: {"Content-type":"application/json"}
     });
