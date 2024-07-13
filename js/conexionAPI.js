@@ -23,13 +23,13 @@ async function nuevoProducto(nombre,precio,imagen,id){
         })
     });
 
-    try{
+   /* try{
         const conexionConvertida = conexion.json()
         return conexionConvertida;
     }
     catch{       
         alert("Error en la conexion");
-    }
+    }}*/
 };
 
 
@@ -38,13 +38,13 @@ async function eliminarTarjeta(id)  {
         {method: "DELETE",
         headers: {"Content-type":"application/json"}
     });
-    try{
+/*    try{
         const conexionConvertida = conexion.json();
         return conexionConvertida;
     }
     catch{
         alert("Error en la conexion");
-    }
+    }*/
 };
  
 
